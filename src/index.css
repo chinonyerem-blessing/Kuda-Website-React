@@ -1,13 +1,321 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.lo img {
+  width: 50px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mm {
+  display: flex;
+  gap: 60px;
+}
+.bu button {
+  border: none;
+  background-color: rgb(65, 2, 65);
+  height: 25px;
+  width: 90px;
+  border-radius: 5px;
+  color: white;
+  font-size: 9px;
+  margin-left: 10px;
+}
+.ug button {
+  background-color: transparent;
+  width: 90px;
+  border: 1px solid purple;
+  border-radius: 5px;
+  height: 25px;
+}
+.ji button {
+  text-decoration: none;
+  color: bluet;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  margin-top: 10px;
+}
+.co h1 {
+  font-size: 30px;
+}
+.co p {
+  font-size: 10px;
+}
+.co button {
+  border: none;
+  background-color: rgb(65, 2, 65);
+  height: 20px;
+  width: 60px;
+  border-radius: 5px;
+  color: white;
+  font-size: 8px;
+}
+.uu {
+  display: flex;
+  gap: 60px;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.uu img {
+  width: 200px;
+  height: 250px;
+  mix-blend-mode: multiply;
+  padding-bottom: 20px;
+}
+.lo {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfZdumDhcXdu2f3sQuTnKFPHALVYO34nKYcw&s");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+.it h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(44, 1, 44);
+  padding-top: 20px;
+}
+.jk p {
+  text-align: center;
+  font-weight: bold;
+}
+.ju h3 {
+  color: rgb(44, 1, 44);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ju p {
+  font-size: 10px;
+}
+.ju h4 {
+  background-color: rgb(44, 1, 44);
+  width: 20px;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  height: 15px;
+  padding-top: 5px;
+}
+.lm {
+  display: flex;
+  gap: 50px;
+  margin-left: 50px;
+}
+.oi p {
+  text-align: center;
+  font-size: 11px;
+  padding: 10px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+.oi span {
+  color: rgb(44, 1, 44);
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.nh {
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NBg0NDQ0NDQ0NDQ0NDQ0NCA8IDQ0OFREWFhURExMYHSggGBolGxMTITEhJSk3Li4uFx8zOD8tNygtLjcBCgoKDQ0KEA8NFSsdFR0rNysrKysrKysrKy0tKy0rLS0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrLf/AABEIAL4BCgMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIFB//EABoQAQEAAwEBAAAAAAAAAAAAAAABESExQVH/xAAYAQEBAQEBAAAAAAAAAAAAAAABAAQDAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APcKlUUKy1WUQkigCChWa1WaShSKUKKaKiAQUAQUBSKSKDQUKDQiKDQUFUqUzQaCQKRShUqinfqVTE4istVlEJIoAgoVmtVmkoUgoJCpCggkAgoCkUkUGgoUGhEUGgoKpUpmpEkY0xWqzUhUqnpO/UqmJxFZarKISRQBBQrNarJKBGUhRTRSQCCgCCgKRSQDQUKDQiKDQUF6jSgzTayUBSKSKlUU79SqYnEVlqsohJFAEFCgioiikV6QopoqIBBQBBQFIpIoNBQBoRFDQs0UIKlSmaDQSBSKUKlUU79SqYnEVlqsohJFAEFJm9NrKKFIr0hRTRUQCCgCCgKRSRQaChQQi1fo5BkWkMqpUlmg0EgUilCpVFO/UqmJxFZarKIRBQBBQrNarNJQpFSFFNFJAIKAIKApFJFSSQZvWrWShQaCQqkUzQaCQKRShUqinfqVTE4igsooJFAEFCs1qs0lCkUoUU0IgEFAEFAFeEgVUJCg0Eig0FBVKlMg0EgVpmlCpVFO/UqmJxDLVZRCSKAIKFZrVZpKFIpQopoqIBBQBBQVQpIoNBQoNCIoNBQVSpTNBoJTNIKFSqSd+pVMbiKy1WUQkigCChWa1WaShSKUKKaKiAQUAQUBSKSKDQUKDQiKDQUFUqUzQaCQKRShUqinfqVTE4istVlEJIoAgoVmtVmkoUilCgpJmg0EgEFAUikig0FCg0Iig0FBVKlM0GqQkY0zW7WKkKlU9J36lUxOIrLVZRCSKAIKFZrVZpKBCSrNNFJAIKAIKApFJFBoKFBoRFBoKCqWChhWms0oVmkUkVKop36lUxOIrLVZRCSKAIKFBrKKFNFKFFNFJAIKAIKApFJFBoKFBoRFBoKQqivSmaDQSBSKUKlUU//Z");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  margin-top: 0px;
+}
+.nh h2 {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.ne h3 {
+  font-size: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  color: white;
+  font-weight: bold;
+}
+.ne p {
+  font-size: 11px;
+  padding-top: 0px;
+  margin-top: 0px;
+  color: white;
+}
+.ny {
+  display: flex;
+  gap: 80px;
+  background-color: rgb(136, 97, 168);
+  padding-top: 20px;
+  margin-top: 0px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+.ny img {
+  margin-top: 50px;
+}
+.pu h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.pu p {
+  text-align: center;
+  font-size: 11px;
+}
+.ne {
+  margin-left: 20px;
+}
+.lk img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid rgb(44, 1, 44);
+}
+.lk h3 {
+  font-weight: bold;
+  margin-left: 12px;
+  color: rgb(44, 1, 44);
+}
+.lk p {
+  color: rgb(44, 1, 44);
+  font-size: 12px;
+  margin-left: 45px;
+}
+.nr {
+  display: flex;
+  gap: 60px;
+  margin-left: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.lp p {
+  color: rgb(44, 1, 44);
+  font-size: 12px;
+  margin-left: 40px;
+}
+.lp h3 {
+  font-weight: bold;
+  margin-left: 22px;
+  color: rgb(44, 1, 44);
+}
+.lp img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid rgb(44, 1, 44);
+}
+.ly p {
+  color: rgb(44, 1, 44);
+  font-size: 12px;
+  margin-left: 34px;
+}
+.ly h3 {
+  font-weight: bold;
+  margin-left: 28px;
+  color: rgb(44, 1, 44);
+}
+.ly img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid rgb(44, 1, 44);
+}
+.po {
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NBg0NDQ0NDQ0NDQ0NDQ0NCA8IDQ0OFREWFhURExMYHSggGBolGxMTITEhJSk3Li4uFx8zOD8tNygtLjcBCgoKDQ0KEA8NFSsdFR0rNysrKysrKysrKy0tKy0rLS0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrLf/AABEIAL4BCgMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIFB//EABoQAQEAAwEBAAAAAAAAAAAAAAABESExQVH/xAAYAQEBAQEBAAAAAAAAAAAAAAABAAQDAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APcKlUUKy1WUQkigCChWa1WaShSKUKKaKiAQUAQUBSKSKDQUKDQiKDQUFUqUzQaCQKRShUqinfqVTE4istVlEJIoAgoVmtVmkoUgoJCpCggkAgoCkUkUGgoUGhEUGgoKpUpmpEkY0xWqzUhUqnpO/UqmJxFZarKISRQBBQrNarJKBGUhRTRSQCCgCCgKRSQDQUKDQiKDQUF6jSgzTayUBSKSKlUU79SqYnEVlqsohJFAEFCgioiikV6QopoqIBBQBBQFIpIoNBQBoRFDQs0UIKlSmaDQSBSKUKlUU79SqYnEVlqsohJFAEFJm9NrKKFIr0hRTRUQCCgCCgKRSRQaChQQi1fo5BkWkMqpUlmg0EgUilCpVFO/UqmJxFZarKIRBQBBQrNarNJQpFSFFNFJAIKAIKApFJFSSQZvWrWShQaCQqkUzQaCQKRShUqinfqVTE4igsooJFAEFCs1qs0lCkUoUU0IgEFAEFAFeEgVUJCg0Eig0FBVKlMg0EgVpmlCpVFO/UqmJxDLVZRCSKAIKFZrVZpKFIpQopoqIBBQBBQVQpIoNBQoNCIoNBQVSpTNBoJTNIKFSqSd+pVMbiKy1WUQkigCChWa1WaShSKUKKaKiAQUAQUBSKSKDQUKDQiKDQUFUqUzQaCQKRShUqinfqVTE4istVlEJIoAgoVmtVmkoUilCgpJmg0EgEFAUikig0FCg0Iig0FBVKlM0GqQkY0zW7WKkKlU9J36lUxOIrLVZRCSKAIKFZrVZpKBCSrNNFJAIKAIKApFJFBoKFBoRFBoKCqWChhWms0oVmkUkVKop36lUxOIrLVZRCSKAIKFBrKKFNFKFFNFJAIKAIKApFJFBoKFBoRFBoKQqivSmaDQSBSKUKlUU//Z");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+}
+.wq img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.wq p {
+  font-size: 12px;
+  padding-top: auto;
+  margin-top: auto;
+}
+.wq h4 {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 0px;
+  margin-bottom: auto;
+}
+.wq {
+  background-color: white;
+  width: 190px;
+  height: 150px;
+  padding-top: 10px;
+  padding: 3px;
+  border-radius: 8px;
+  box-shadow: 2px 5px 2px 5px #ccc;
+}
+.nq {
+  display: flex;
+  gap: 260px;
+  margin-left: 30px;
+}
+.uw {
+  display: flex;
+  gap: 10px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.rw h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.rw p {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 11px;
+}
+.gi {
+  background-color: rgb(136, 97, 168);
+  padding-top: 40px;
+}
+
+.qw {
+  mix-blend-mode: multiply;
+}
+.mt p {
+  color: white;
+}
+.mt input {
+  width: 220px;
+  height: 30px;
+  background-color: white;
+  border: none;
+}
+.pw footer {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+.mt button {
+  width: 140px;
+  height: 26px;
+  background-color: rgb(221, 61, 221);
+  border-radius: 5px;
+  border: none;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.ki {
+  display: flex;
+  gap: 40px;
+
+  padding-left: 20px;
+}
+.iq p {
+  font-size: 12px;
+  color: white;
+}
+.iq {
+  margin-top: 20px;
+}
+.ec p {
+  font-size: 12px;
+  color: white;
+  margin-top: 20px;
+}
+.ks {
+  background-color: rgb(51, 5, 51);
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
