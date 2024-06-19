@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kuda-Website-React/static/css/main.47c1f6a2.css",
+    "main.js": "/Kuda-Website-React/static/js/main.45f8a165.js",
+    "index.html": "/Kuda-Website-React/index.html",
+    "main.47c1f6a2.css.map": "/Kuda-Website-React/static/css/main.47c1f6a2.css.map",
+    "main.45f8a165.js.map": "/Kuda-Website-React/static/js/main.45f8a165.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47c1f6a2.css",
+    "static/js/main.45f8a165.js"
+  ]
+}
